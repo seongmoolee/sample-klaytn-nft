@@ -1,4 +1,4 @@
-pragma solidity ^0.5.2;
+pragma solidity ^0.5.6;
 
 
 /**
@@ -1339,5 +1339,5 @@ contract KIP17Token is KIP17Full, KIP17Mintable, KIP17MetadataMintable, KIP17Bur
     }
 }
 
-contract DSCSampleNFT is KIP17Token("DSCSampleNFT", "SAMPLE") {
+contract DSCDevSampleNFT is KIP17Token("DSCDevSampleNFT", "DEVSAMPLE") {
 }
